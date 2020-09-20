@@ -1,5 +1,6 @@
 # Hugo default output directory
 /public
+tags
 
 ## OS Files
 # Windows

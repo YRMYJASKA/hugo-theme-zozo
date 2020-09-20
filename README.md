@@ -1,5 +1,10 @@
 # Hugo Theme Zozo
 
+## Disclaimer
+This is YRMYJASKA's Bastardised Zozo template.
+All credit goes to the original creators and the original README follows this disclaimer. 
+This is purely for my own usage.
+
 [![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE)
 
 A simple and beautiful theme for Hugo
