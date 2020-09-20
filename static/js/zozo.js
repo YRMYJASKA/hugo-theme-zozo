@@ -52,4 +52,6 @@ $('[data-fancybox="gallery"]').fancybox({
     dblclickContent: false,
     dblclickSlide: false
   },
-});
+}
+
+);

@@ -8,3 +8,23 @@
 {{ end }}
 
 {{ template "_internal/google_analytics_async.html" . }}
+
+<script src="{{ "js/readingtime.min.js" | absURL }}">
+</script>
+<script charset="utf-8">
+    if($('.doc_comments').length){
+        // This is a single post
+        $('.post_content').readingTime();
+    } else {
+        // This is a list of posts
+        // Get reading time externally and paste it on the list
+        $('.post').each(function(){
+            let _this = $(this);
+            _this.readingTime({
+                readingTimeTarget: _this.find('.eta'),
+                remotePath: _this.find('a').attr("href"),
+                remoteTarget: '.post_content'
+            });
+        })
+    }
+</script>
